@@ -10,4 +10,17 @@ package nl.novi.jp.methods.junior;
  */
 
 public class JuniorFive {
+    public static void main(String[] args) {
+        String lowerCaseString1 = "Hoi ik ben Mark";
+        String lowerCaseString2 = "Hoi ik ben nog steeds Mark";
+
+
+        convertToUpperCase(lowerCaseString1);
+        convertToUpperCase(lowerCaseString2);
+    }
+
+    public static void convertToUpperCase(String lowerCaseString) {
+        String upperCaseString = lowerCaseString.toUpperCase();
+        System.out.println(upperCaseString);
+    }
 }
